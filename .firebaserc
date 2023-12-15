@@ -1,0 +1,13 @@
+{
+  "projects": {
+    "default": "bookworm-site"
+  },
+  "targets": {},
+  "etags": {
+    "bookworm-site": {
+      "extensionInstances": {
+        "firestore-stripe-payments": "4ba74c9cf19ac68ab518ef3c8f18dd5b03ae5d524edac41db199a5a034dd158a"
+      }
+    }
+  }
+}

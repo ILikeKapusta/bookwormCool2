@@ -1,0 +1,94 @@
+
+
+.footer {
+    margin-top: 100px;
+    width: 100%;
+    padding: 50px 15%;
+    background: #333;
+    color: #c1dffb;
+    display: flex;
+    border-radius: 20px 20px 0px 0px 
+  }
+  
+  .footer div {
+    text-align: center;
+  }
+  
+  .footer-col1 {
+    width: 33%;
+  }
+
+
+  .footer-col1-items {
+    transition-duration: 0.2s;
+    border-radius: 50px;
+  }
+
+  .footer-col1-items:hover {
+    opacity: 0.8;
+    background-color: #4b4a4a;
+    transition-duration: 0.2s;
+  }
+
+  .footer-col1 a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .footer-col2 {
+    width: 33%;
+  }
+  
+  .footer div h3 {
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+  
+  .subscribe {
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+  }
+  
+  .subscribe-button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .footer-col3 {
+    width: 33%;
+  }
+
+  .footer-col3 p {
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .fa-brands {
+    color: white;
+    font-size: 2.5rem;
+    margin: 0px 10px;
+    padding: 5px;
+    border-radius: 50px;
+    transition-duration: 0.2s;
+  }
+
+  .fa-brands:hover {
+    transform: translateY(-3px);
+    background-color: #4b4a4a;
+    transition-duration: 0.2s;
+
+  }

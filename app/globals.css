@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+@font-face {
+  font-family: subscribe;
+  src: url(../fonts/Subscribe.ttf);
+}
+
+
+@keyframes fadeinfromleft {
+  from {
+      transform: translateX(-20px);
+      opacity: 0;
+  }
+
+  to {
+      transform: translateX(0px);
+      opacity: 1;
+  }
+}
+
+@keyframes fadeinfromright {
+  from {
+      transform: translateX(20px);
+      opacity: 0;
+  }
+
+  to {
+      transform: translateX(0px);
+      opacity: 1;
+  }
+}
+
+@keyframes fadeinfromtop {
+  from {
+      transform: translateY(-20px);
+      opacity: 0;
+  }
+
+  to {
+      transform: translateY(0px);
+      opacity: 1;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0;
+  font-family: 'subscribe', sans-serif;
+}
+  
+
+html, body {
+  overflow-x: hidden;
+  background: rgb(188, 224, 253);
+  min-width: 100%;
+}
+
+.featured-books-main {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(29, 154, 196);
+  margin: 0px 30px;
+  min-height: 100%;
+  border-radius: 40px;
+  animation-name: fadeinfromright;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  opacity: 0.9;
+}
+
+/* BookView */
+
+@media (max-width:3000px) {
+  .myPDF {
+      position: relative;
+      height: 90%;
+      width: 89vw;
+      border-width: 0px;
+      margin: 50px;
+  }
+
+  .author-info-left-side-top {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      width: 30%;
+      margin: 5px;
+  }
+
+  .author-info-left-side-bottom {
+      border-radius: 50px;
+      margin: 5px;
+      width: 70%;
+  }
+
+  .author-info-left-side-top-author-name {
+      width: 65%;
+      font-size: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .author-info-left-side {
+      width: 40%;
+      display: flex;
+      margin-left: 20px;
+      background-color: rgb(228, 227, 227);
+      border-radius: 50px;
+  }
+}
+
+@media (max-width:768px) {
+
+
+  .author-info-left-side-top {
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .author-info-left-side-bottom {
+      width: 90%;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .author-info-left-side-top-author-name {
+      font-size: 1.2rem;
+  }
+
+  .author-info-left-side {
+      flex-direction: column;
+  }
+}
+
+@media (max-width:425px) {
+  .myPDF {
+      width: 95%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'subscribe', sans-serif;
+}
+
+
+

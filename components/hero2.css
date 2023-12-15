@@ -1,0 +1,205 @@
+@media (min-width:426px) {
+  .subscription-bottom-bottom-content-box {
+    flex-direction: column;
+    width: 20%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+  }
+}
+
+@media (max-width:425px) {
+  .middle-side {
+    flex-direction: column;
+  }
+
+  .subscription-bottom-bottom-content-box {
+    width: 50%;
+  }
+}
+
+
+.hero2 {
+  height: 100%;
+}
+
+.hero-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .top-side {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+  }
+  
+  .top-side h2 {
+    font-size: 4rem;
+    font-weight: 500;
+  }
+  
+  .top-side p {
+    font-size: 1.5rem;
+        font-weight: 500;
+
+  }
+  
+  .middle-side {
+    border-radius: 0px 0px 50px 50px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-box {
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .content-box-left {
+    height: 40%;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .content-box-right {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content-box-middle {
+    text-align: center;
+
+  }
+
+  .content-box-middle h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .react-icons {
+    width: 90%;
+    height: 90%;
+  }
+
+  .bottom-side button {
+    border: 0px solid black;
+    position: relative;
+    margin: 0px 10px;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem ;
+    color: rgb(235, 228, 228);
+    background-color: rgb(38, 141, 236);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    transition-duration: 0.3s;
+    border-radius: 50px;
+  
+  }
+    
+  .bottom-side button:hover {
+    background-color: rgb(146, 198, 223);
+    transition-duration: 0.4s;
+    color: #ffffff;
+    transform: translateY(-10%);
+    box-shadow: 0px 0px 3px 3px rgba(122, 158, 159, 0.2);
+  }
+
+  .coming-soon {
+    background-color: rgba(255, 255, 255, 0.692);
+  }
+
+  .bottom-bottom-side {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .subscription-bottom-bottom-content-box {
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .bottom-bottom-content-box h4 {
+    font-weight: 500;
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .bottom-bottom-content-box p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .bottom-bottom-content-box-right {
+    height: 50%;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bottom-bottom-side-button {
+    border: 0px solid black;
+    position: relative;
+    margin: 0px 10px;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem ;
+    color: rgb(235, 228, 228);
+    background-color: rgb(38, 141, 236);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    transition-duration: 0.3s;
+    border-radius: 50px;
+    width: 60%;
+  }
+    
+  .bottom-bottom-side-button:hover {
+    background-color: rgb(146, 198, 223);
+    transition-duration: 0.4s;
+    color: #ffffff;
+    transform: translateY(-10%);
+    box-shadow: 0px 0px 3px 3px rgba(122, 158, 159, 0.2);
+  }
+
+  .bottom-bottom-side-button-link {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+  }
+
+  .price-per-month {
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }

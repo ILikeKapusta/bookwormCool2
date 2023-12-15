@@ -1,0 +1,150 @@
+@keyframes fadeinfromright {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'subscribe', sans-serif;
+}
+
+body {
+    background: rgb(188, 224, 253);
+
+}
+
+.login-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/waves.svg);    background-position: center;
+    background-size: cover;
+}
+
+.formbox {
+    background-color: rgba(221, 238, 253, 0.9);
+    width: 90%;
+    max-width: 450px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px 2px rgba(3, 3, 3, 0.205);
+    animation-name: fadeinfromright;
+    animation-duration: 2s;
+
+}
+
+.formbox h1 {
+    font-size: 40px;
+    margin-bottom: 60px;
+    color: #01050a;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.input-field {
+    background: rgb(193, 223, 251);
+    margin: 15px 0;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    overflow: hidden;
+
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+    position: relative;
+
+}
+
+.input-field i {
+    margin-left: 15px;
+    color: #01050a;
+}
+
+form p {
+    text-align: left;
+    font-size: 13px;
+}
+
+form p a {
+    text-decoration: none;
+    color: #0f81eb;
+    transform: translateX(0px);
+
+}
+
+form p a:hover {
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+.btn-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-field button {
+    flex-basis: 48%;
+    background: #0f81eb;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transform: translateY(0px);
+    transition: transform 0.3s, background 1s, opacity 0.3s;
+
+}
+
+.btn-field button:hover {
+    opacity: 0.7;
+    transform: translateY(-3px);
+    transition: transform 0.3s, background 1s, opacity 0.3s;
+
+}
+
+.input-group {
+    height: 280px;
+
+}
+
+.btn-field button.disable {
+    background: #eaeaea;
+    color: #555;
+}
+
+.password-toggle-visable {
+    display: flex;
+    right: 16%;
+    position: absolute;
+}
+
+.password-toggle-visable:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.react-icon-login {
+    font-size: 1.5rem;
+}
+

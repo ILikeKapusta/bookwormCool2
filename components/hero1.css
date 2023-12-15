@@ -1,0 +1,131 @@
+
+@media (min-width: 1545px) {
+
+
+
+  .right-side img {
+    margin-right: 65px;
+    margin-top: 35px;
+    border-radius: 30px;
+    animation-name: fadeinfromright;
+    animation-duration: 3s;
+    
+  }
+
+  .hero-container h1 {
+    font-size: 9rem;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 15px;
+    animation-name: fadeinfromleft;
+    animation-duration: 3s;
+  }
+  
+  .hero-container p {
+    font-size: 2.5rem;
+    font-family: 'Merriweather', serif;
+    margin-top: 35px;
+    animation-name: fadeinfromleft;
+    animation-duration: 3s;
+  }   
+}
+
+@media (max-width: 1544px) {
+  .hero-container h1 {
+    font-size: 7rem;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 15px;
+  }
+  
+  .hero-container p {
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+  } 
+  
+
+  .right-side img {
+    width: 90%;
+    height: 90%;
+    margin-right: 65px;
+    margin-top: 35px;
+    border-radius: 30px;
+    animation-name: fadeinfromright;
+    animation-duration: 3s;
+    
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero-container h1 {
+    font-size: 4rem;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 15px;
+  }
+  
+  .hero-container p {
+    font-size: 1.5rem;
+    font-family: 'Merriweather', serif;
+  } 
+  
+
+  .right-side img {
+    display: none;
+  }
+}
+
+@media (min-width: 426px) {
+
+  
+  .left-side {
+    width: 60%;
+    display: inline-block;
+  }
+  
+  .right-side {
+    display: flex;
+  }
+
+  .right-side img {
+    height: 800px;
+  }
+}
+
+@media (max-width: 425px) {
+  
+  .hero1 {
+    display: none;
+  }
+
+  .right-side {
+    display: none;
+  }
+
+  .right-side {
+    position: absolute;
+  }
+
+  .left-side {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.hero1 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+  
+  .hero-container {
+    display: flex;
+  }
+  
+  .left-side {
+    margin: 50px;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #01050a;
+    width: 60%;
+  }
+
+  
